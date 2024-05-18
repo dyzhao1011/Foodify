@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Fruitfy
+## Summary
+Fruits have similar chemical composition with unique amounts of macro and micro nutrients. They can be classified into 7 different categories of fruits that are distinctive in the numerical values of some nutrients. This project aims to develop a machine learning model to classify fruits based on their chemical composition that will be used to create a dietary tool where users can find a type of fruit that fits their best needs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+  <summary>Introduction</summary>
+  There are many types of fruits and each one has a unique chemical composition of different macro and micro nutrients. These fruits can be grouped into 7 classes: aggregate, berry, citrus, drupe, melon, multiple, pome. Some groups have properties that differentiates them from others. For example, melons have the highest amount of vitamin A while drupes have the highest amount of vitamin C. Initial plans for this project was for a classification of individual fruits. However, due to the limitations of the data that is required to train the model, the plan was reduced to categories of fruits.
+</details>
 
-## Available Scripts
+<details>
+  <summary>Purpose</summary>
+  This project aims to help people that want to get their fruit intake that suits their nutritional needs down to the digits. The practical portion of this project is a US FDA Nutrition label where users can input values for certain nutrients.
+</details>
 
-In the project directory, you can run:
+<details>
+  <summary>Model</summary>
+  By analyzing the results of certain techniques of handling missing data, feature selection, and sample selection, a random forest model was developed at a 79.33% accuracy with the following hypter parameters: max_depth=5, max_features='log2', n_estimators=175, random_state=11.
+</details>
 
-### `npm start`
+<details>
+  <summary>Fturue Work</summary>
+  This project only tested simple classifier models and future work may include testing more complex models or further optimization. The data for this project was exclusively fruits, but it can be broadened. Future research and development can scale this project to classify more broader categories of food such as dairy, meat, vegetables, etc.
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more information on the details on the development of this project, please refer to "Fruitify Report".
