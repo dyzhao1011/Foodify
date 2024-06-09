@@ -159,7 +159,6 @@ X = fruitDF.iloc[:, [14 ,13 , 9 , 4, 12,  2, 16, 8 , 3 ,11, 15,  6 ,17, 10,  7, 
 LE = LabelEncoder()
 Y_encoded = LE.fit_transform(fruitDF.iloc[:,18])    
 
-print(X.columns)
 
 # Model (Random Forest)
 rf_classifier = RandomForestClassifier(criterion='entropy', max_depth=5, max_features='log2',
