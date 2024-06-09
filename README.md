@@ -3,6 +3,21 @@
 Fruits have similar chemical composition with unique amounts of macro and micro nutrients. They can be classified into 7 different categories of fruits that are distinctive in the numerical values of some nutrients. This project aims to develop a machine learning model to classify fruits based on their chemical composition that will be used to create a dietary tool where users can find a type of fruit that fits their best needs.
 
 <details>
+  <summary>Updates</summary>
+  <ul>
+    <details>
+    <summary> June 6th, 2024 </summary>
+      
+   - Updated the size of the value input boxes to match the size of the average input
+   * Increased the size of the percent input boxes
+
+   <br>The function for the fruit predictor is mostly complete. The model can be improved, but to increase the usefullness of this tool, we can broaden the fruit types. We can build a similar food predictor for all types of food including meats, dairy, vegetable, etc. The next step is to build a functional website that houses these tools.
+  </details>
+  
+  </ul>
+
+</details>
+<details>
   <summary>Introduction</summary>
   There are many types of fruits and each one has a unique chemical composition of different macro and micro nutrients. These fruits can be grouped into 7 classes: aggregate, berry, citrus, drupe, melon, multiple, pome. Some groups have properties that differentiates them from others. For example, melons have the highest amount of vitamin A while drupes have the highest amount of vitamin C. Initial plans for this project was for a classification of individual fruits. However, due to the limitations of the data that is required to train the model, the plan was reduced to categories of fruits.
 </details>
