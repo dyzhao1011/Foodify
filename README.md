@@ -33,7 +33,7 @@ Fruits have similar chemical composition with unique amounts of macro and micro 
 </details>
 
 <details>
-  <summary>Fturue Work</summary>
+  <summary>Future Work</summary>
   This project only tested simple classifier models and future work may include testing more complex models or further optimization. The data for this project was exclusively fruits, but it can be broadened. Future research and development can scale this project to classify more broader categories of food such as dairy, meat, vegetables, etc.
 </details>
 
