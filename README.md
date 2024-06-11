@@ -1,5 +1,7 @@
 # Fruitfy
+
 ## Summary
+
 Fruits have similar chemical composition with unique amounts of macro and micro nutrients. They can be classified into 7 different categories of fruits that are distinctive in the numerical values of some nutrients. This project aims to develop a machine learning model to classify fruits based on their chemical composition that will be used to create a dietary tool where users can find a type of fruit that fits their best needs.
 
 <details>
@@ -11,7 +13,8 @@ Fruits have similar chemical composition with unique amounts of macro and micro 
    - Updated the size of the value input boxes to match the size of the average input
    * Increased the size of the percent input boxes
 
-   <br>The function for the fruit predictor is mostly complete. The model can be improved, but to increase the usefullness of this tool, we can broaden the fruit types. We can build a similar food predictor for all types of food including meats, dairy, vegetable, etc. The next step is to build a functional website that houses these tools.
+<br>The function for the fruit predictor is mostly complete. The model can be improved, but to increase the usefullness of this tool, we can broaden the fruit types. We can build a similar food predictor for all types of food including meats, dairy, vegetable, etc. The next step is to build a functional website that houses these tools.
+
   </details>
   
   </ul>
