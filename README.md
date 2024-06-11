@@ -8,13 +8,20 @@ Fruits have similar chemical composition with unique amounts of macro and micro 
   <summary>Updates</summary>
   <ul>
     <details>
-    <summary> June 6th, 2024 </summary>
+      <summary>June 11th, 2024</summary>
       
-   - Updated the size of the value input boxes to match the size of the average input
-   * Increased the size of the percent input boxes
-
-<br>The function for the fruit predictor is mostly complete. The model can be improved, but to increase the usefullness of this tool, we can broaden the fruit types. We can build a similar food predictor for all types of food including meats, dairy, vegetable, etc. The next step is to build a functional website that houses these tools.
-
+  - Created a design draft for the home page using Figma
+  * Created the home page using the draft
+    
+  <br>The design of the home page is relatively complete with the exlusion of some buttons. The only functional button, for now, is the "Fruit" button on the navigation bar which was the original project. The navigation bar serves as a quick way to access the tools for users that are already familiar with them. The "Get Started" button serves as a beginner's guide to select from the array of tools. The next step is to redesign the fruit tool such that it matches the current style of the website and to design and integrate, but without functionality, the "Get Started" Page.
+    </details>
+    <details>
+      <summary> June 6th, 2024 </summary>
+      
+  - Updated the size of the value input boxes to match the size of the average input
+  * Increased the size of the percent input boxes
+    
+  <br>The function for the fruit tool is mostly complete. The UI can be improved with the addition of buttons and the model can be improved through further optimization and analaysis. To increase the usefullness of this tool, we can broaden the fruit types. We can build a similar food predictor for all types of food including meats, dairy, vegetable, etc. The next step is to build a functional website that houses these tools.
   </details>
   
   </ul>
