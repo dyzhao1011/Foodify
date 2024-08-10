@@ -8,6 +8,13 @@ Fruits have similar chemical composition with unique amounts of macro and micro 
   <summary>Updates</summary>
   <ul>
     <details>
+      <summary>August 10th, 2024</summary>
+  - Developments for other food groups is being planned and developed
+  * Migrating data collection from API calls to download files
+      
+  <br> The developments for other food group calls for a rebranding from Fruitify to Foodify. The decision to migrate the data to a database will prove to increase the stability of the data.
+    </details>
+    <details>
       <summary>June 11th, 2024</summary>
       
   - Created a design draft for the home page using Figma
