@@ -9,6 +9,7 @@ Fruits have similar chemical composition with unique amounts of macro and micro 
   <ul>
     <details>
       <summary>August 10th, 2024</summary>
+      
   - Developments for other food groups is being planned and developed
   * Migrating data collection from API calls to download files
       
