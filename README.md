@@ -8,6 +8,13 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   <summary>Updates</summary>
   <ul>
     <details>
+      <summary>August 15th, 2024</summary>
+
+  - The foundations food datasets have been cleaned, organized, and combined into 1
+
+  <br> The foundation’s food data only contains 1 sample per food. This sample may be composed of sub samples. Upon examining the foundation's food data, some foods have incomplete data and missing essential nutrients that are present. This proves problematic because it would misguide the model and produce inaccurate results. As a solution, the decision to incorporate the SR Legacy dataset is decided upon.
+    </details>
+    <details>
       <summary>August 10th, 2024</summary>
       
   - Developments for other food groups is being planned and developed
