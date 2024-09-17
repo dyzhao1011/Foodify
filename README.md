@@ -8,6 +8,15 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   <summary>Updates</summary>
   <ul>
     <details>
+      <summary>September 16th, 2024</summary>
+
+  - Edited the final foundations food table so that it represents the raw, unfiltered data
+  * The sr_legacy food datasets have been cleaned, organized, and combined into 1
+
+
+  <br> Upon examination of the data, some foods such as meats have 2 versions: cooked and uncooked. Since all data is measured in 100 grams, the cooked food usually has more nutrients since it is more dense due to the water loss during cooking. This is problematic because it may mislead the model. As a result, the cooked foods are filtered out and the raw forms are used to better represent what people usually see on a nutritional label. In addition, there are some foods, such as flour and butter, that have to be filtered out because they aren’t usually consumed in its raw form. The next steps would be future data inspection and cleaning.
+    </details>
+    <details>
       <summary>August 15th, 2024</summary>
 
   - The foundations food datasets have been cleaned, organized, and combined into 1
