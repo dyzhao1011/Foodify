@@ -10,26 +10,26 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
     <details>
       <summary>October 14th, 2024</summary>
 
-  - The raw survey food datasets have been joined together into 1 table
+  - The raw survey food datasets have been joined into 1 table
 
 
-  <br> It is necessary to include the survey food dataset because they may contain food that aren’t in the foundations or sr legacy. The survey food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the survey foods, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
+  <br> It is necessary to include the survey food dataset because they may contain food that aren’t in the foundations or SR legacy datasets. The survey food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the survey foods, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
     </details>
     <details>
       <summary>September 16th, 2024</summary>
 
   - Edited the final foundations food table so that it represents the raw, unfiltered data
-  * The sr_legacy food datasets have been cleaned, organized, and combined into 1
+  * The SR_Legacy food datasets have been joined into 1 table
 
 
-  <br> Upon examination of the data, some foods such as meats have 2 versions: cooked and uncooked. Since all data is measured in 100 grams, the cooked food usually has more nutrients since it is more dense due to the water loss during cooking. This is problematic because it may mislead the model. As a result, the cooked foods are filtered out and the raw forms are used to better represent what people usually see on a nutritional label. In addition, there are some foods, such as flour and butter, that have to be filtered out because they aren’t usually consumed in its raw form. The next steps would be future data inspection and cleaning.
+  <br> Further examination of the data found that some foods such as meats have 2 versions: cooked and uncooked. Since all data is measured in 100 grams, the cooked food usually has more nutrients since it is more dense due to the water loss during cooking. This is problematic because it may mislead the model. As a result, the cooked foods are filtered out and the raw forms are used to better represent what people usually see on a nutritional label. The next steps would be future data inspection and cleaning.
     </details>
     <details>
       <summary>August 15th, 2024</summary>
 
-  - The foundations food datasets have been cleaned, organized, and combined into 1
+  - The foundations food datasets have been joined into 1 table
 
-  <br> The foundation’s food data only contains 1 sample per food. This sample may be composed of sub samples. Upon examining the foundation's food data, some foods have incomplete data and missing essential nutrients that are present. This proves problematic because it would misguide the model and produce inaccurate results. As a solution, the decision to incorporate the SR Legacy dataset is decided upon.
+  <br> The foundation’s food data only contains 1 sample per food. Examination of the joined foundations table yieled messy and disorganized data. The table needs to delete irrevelant samples, duplicate samples (legumes count as vegetable and protein, according to the FDA), and recategorize samples into the 5 main food groups. There is a total of 358 samples before cleaning the table. It is insufficient to train a model. The next step would be to incorporate the SR_Legacy datasets into the database.
     </details>
     <details>
       <summary>August 10th, 2024</summary>
@@ -37,7 +37,7 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   - Developments for other food groups is being planned and developed
   * Migrating data collection from API calls to download files
       
-  <br> The developments for other food group calls for a rebranding from Fruitify to Foodify. The decision to migrate the data to a database will prove to increase the stability of the data.
+  <br> The developments for other food group calls for a rebranding from Fruitify to Foodify. The decision to migrate data collection from API calls to a database will prove to increase the efficiency and stability of the data.
     </details>
     <details>
       <summary>June 11th, 2024</summary>
