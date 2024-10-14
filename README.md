@@ -8,6 +8,14 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   <summary>Updates</summary>
   <ul>
     <details>
+      <summary>October 14th, 2024</summary>
+
+  - The raw survey food datasets have been joined together into 1 table
+
+
+  <br> It is necessary to include the survey food dataset because they may contain food that aren’t in the foundations or sr legacy. The survey food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the survey foods, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
+    </details>
+    <details>
       <summary>September 16th, 2024</summary>
 
   - Edited the final foundations food table so that it represents the raw, unfiltered data
