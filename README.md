@@ -8,9 +8,21 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   <summary>Updates</summary>
   <ul>
     <details>
+      <summary>October 15th, 2024</summary>
+
+  - The Foundations Food table has been almost fully cleaned through deletion of duplicate samples, irrelevant samples, duplication of samples (legumes are categorized as both a vegetable and a protein, according to the FDA), and recategorization of samples into the 5 main food groups
+
+
+  <br> Some duplicate samples are exact, some differ slightly for some nutrients, and some have missing values while its duplicate doesn’t. For the last case, duplicates are compared with each other from the order Calories (kcal) to Potassium (MG). The sample that has a null value, while its duplicate has a valid value, was deleted.
+
+The previous decision to filter out cooked food is being reconsidered. It is a challenge to decide either to use uncooked foods only or most-consumed-type of foods only because cooking food alters the nutrient composition of foods. The former method is a more standardized approach because it uses the natural form of foods. This method makes an exception to Grains because grains aren’t consumed in its natural form. This method excludes dried foods. This method may be misleading because it doesn’t reflect the nutrient profile of how people usually consume that food. The latter method better reflects real life, but a large portion of the Foundations Food samples are only in its raw form. This calls for the project to branch into 2 paths for these methods. The project will currently focus on uncooked foods going forwards and will revisit the other method later on.
+
+Concerning null values, it is unknown if the null values are a result of a lack of data collection or lack of presence of a particular nutrient for a sample. These null values will be replaced with the value of the same type of sample for the corresponding nutrient from the SR_Legacy dataset. 
+    </details>
+    <details>
       <summary>October 14th, 2024</summary>
 
-  - The raw survey food datasets have been joined into 1 table
+  - The Survey Food datasets have been joined into 1 table
 
 
   <br> It is necessary to include the survey food dataset because they may contain food that aren’t in the foundations or SR legacy datasets. The survey food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the survey foods, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
@@ -18,7 +30,7 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
     <details>
       <summary>September 16th, 2024</summary>
 
-  - Edited the final foundations food table so that it represents the raw, unfiltered data
+  - Edited the final Foundations Food table so that it represents the raw, unfiltered data
   * The SR_Legacy food datasets have been joined into 1 table
 
 
@@ -27,9 +39,9 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
     <details>
       <summary>August 15th, 2024</summary>
 
-  - The foundations food datasets have been joined into 1 table
+  - The Foundations Food datasets have been joined into 1 table
 
-  <br> The foundation’s food data only contains 1 sample per food. Examination of the joined foundations table yieled messy and disorganized data. The table needs to delete irrevelant samples, duplicate samples (legumes count as vegetable and protein, according to the FDA), and recategorize samples into the 5 main food groups. There is a total of 358 samples before cleaning the table. It is insufficient to train a model. The next step would be to incorporate the SR_Legacy datasets into the database.
+  <br> The foundation’s food data only contains 1 sample per food. Examination of the joined foundations table yieled messy and disorganized data. There is a total of 358 samples before cleaning the table. It is insufficient to train a model. The next step would be to incorporate the SR_Legacy datasets into the database.
     </details>
     <details>
       <summary>August 10th, 2024</summary>
