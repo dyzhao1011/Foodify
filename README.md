@@ -94,5 +94,5 @@ Concerning null values, it is unknown if the null values are a result of a lack 
   FOR THE FRUIT MODEL: By analyzing the results of certain techniques of handling missing data, feature selection, and sample selection, a random forest model was developed at a 79.33% accuracy with the following hypter parameters: max_depth=5, max_features='log2', n_estimators=175, random_state=11.
 </details>
 
-
-For more information on the details on the development of this project, please refer to "Fruitify Report".
+This project is the successor to a previous project called Fruitify. For more information on the details on the development of it, please refer to "Fruitify Report".
+The application of this project can be founder at https://mikeyz.pythonanywhere.com. Please note that the website has limited functionality as it is under development.
