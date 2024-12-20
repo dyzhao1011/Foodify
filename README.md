@@ -6,7 +6,14 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
 
 <details>
   <summary>Updates</summary>
-  <ul>
+  <ul>  
+    <details>
+      <summary>December 20th, 2024</summary>
+
+  - The cleaning phase for the SR_Leagacy table has initiated
+  <br>
+Initial screening of the SR_Legacy Food table found it messier than the Foundations Food table. For example, for the American Indian/Alaska Native Foods category, it comprises food belonging to more than 1 food category. There are also much more irrelevant samples. 
+    </details>
     <details>
       <summary>October 15th, 2024</summary>
 
