@@ -10,51 +10,51 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
     <details>
       <summary>December 20th, 2024</summary>
 
-  - The cleaning phase for the SR_Leagacy table has initiated
+  - Initiated the cleaning process for the SR_Leagacy table
   <br>
 Initial screening of the SR_Legacy Food table found it messier than the Foundations Food table. For example, for the American Indian/Alaska Native Foods category, it comprises food belonging to more than 1 food category. There are also much more irrelevant samples. 
     </details>
     <details>
       <summary>October 15th, 2024</summary>
 
-  - The Foundations Food table has been almost fully cleaned through deletion of duplicate samples, irrelevant samples, duplication of samples (legumes are categorized as both a vegetable and a protein, according to the FDA), and recategorization of samples into the 5 main food groups
+  - Deleted duplicate samples and irrelevant samples from the Foundation Food table
+  * Duplicated samples (legumes are categorized as both a vegetable and a protein, according to the FDA) in the Foundation Food table
+  + Recategorized samples into the 5 main food groups in the Foundation Food table
 
 
-  <br> Some duplicate samples are exact, some differ slightly for some nutrients, and some have missing values while its duplicate doesn’t. For the last case, duplicates are compared with each other from the order Calories (kcal) to Potassium (MG). The sample that has a null value, while its duplicate has a valid value, was deleted.
+  <br> Some duplicate samples are exact, some differ slightly for some nutrients, and some have missing values while its duplicate doesn’t. For the last case, duplicates are compared with each other from the order Calories (kcal) to Potassium (MG). Samples that have a more completed nutritional information are prioritized while its duplicate are dropped.
 
 The previous decision to filter out cooked food is being reconsidered. It is a challenge to decide either to use uncooked foods only or most-consumed-type of foods only because cooking food alters the nutrient composition of foods. The former method is a more standardized approach because it uses the natural form of foods. This method makes an exception to Grains because grains aren’t consumed in its natural form. This method excludes dried foods. This method may be misleading because it doesn’t reflect the nutrient profile of how people usually consume that food. The latter method better reflects real life, but a large portion of the Foundations Food samples are only in its raw form. This calls for the project to branch into 2 paths for these methods. The project will currently focus on uncooked foods going forwards and will revisit the other method later on.
-
-Concerning null values, it is unknown if the null values are a result of a lack of data collection or lack of presence of a particular nutrient for a sample. These null values will be replaced with the value of the same type of sample for the corresponding nutrient from the SR_Legacy dataset. 
     </details>
     <details>
       <summary>October 14th, 2024</summary>
 
-  - The Survey Food datasets have been joined into 1 table
+  - Joined the Survey Food datasets into 1 table
 
 
-  <br> It is necessary to include the survey food dataset because they may contain food that aren’t in the foundations or SR legacy datasets. The survey food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the survey foods, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
+  <br> It is necessary to include the Survey Food dataset because they may contain food that aren’t in the Foundation Food or SR_Legacy Food. The Survey Food dataset has many categories that need to be sorted into the 5 main food groups. Upon examination of the Survey Food table, they have no data collected on its trans fat. The next steps would be cleaning of the 3 tables to remove/group foods.
     </details>
     <details>
       <summary>September 16th, 2024</summary>
 
   - Edited the final Foundations Food table so that it represents the raw, unfiltered data
-  * The SR_Legacy food datasets have been joined into 1 table
+  * Joined the SR_Legacy Food datasets into 1 table
 
 
-  <br> Further examination of the data found that some foods such as meats have 2 versions: cooked and uncooked. Since all data is measured in 100 grams, the cooked food usually has more nutrients since it is more dense due to the water loss during cooking. This is problematic because it may mislead the model. As a result, the cooked foods are filtered out and the raw forms are used to better represent what people usually see on a nutritional label. The next steps would be future data inspection and cleaning.
+  <br> Further examination of the data found that some foods such as meats have 2 versions: cooked and uncooked. Since all data is measured in 100 grams, the cooked food usually has more nutrients since it is more dense due to the water loss during cooking. This is problematic because it may mislead the model. To standardize, the cooked foods are filtered out and the raw forms are used to better represent what people usually see on a nutritional label. The next steps would be future data inspection and cleaning.
     </details>
     <details>
       <summary>August 15th, 2024</summary>
 
-  - The Foundations Food datasets have been joined into 1 table
+  - Joined the Foundation Food datasets into 1 table
 
-  <br> The foundation’s food data only contains 1 sample per food. Examination of the joined foundations table yieled messy and disorganized data. There is a total of 358 samples before cleaning the table. It is insufficient to train a model. The next step would be to incorporate the SR_Legacy datasets into the database.
+  <br> The Foundation Food table only contains 1 sample per food. Examination of the joined Foundation Food Table yieled messy and disorganized data. There is a total of 358 samples before cleaning the table. It is insufficient to train a model. The next step would be to incorporate the SR_Legacy datasets into the database.
     </details>
     <details>
       <summary>August 10th, 2024</summary>
       
-  - Developments for other food groups is being planned and developed
-  * Migrating data collection from API calls to download files
+  - Planned developments for other food groups
+  * Migrated data collection from API calls to download files
       
   <br> The developments for other food group calls for a rebranding from Fruitify to Foodify. The decision to migrate data collection from API calls to a database will prove to increase the efficiency and stability of the data.
     </details>
