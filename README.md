@@ -8,6 +8,13 @@ Different types of foods have unique amounts of macro and micro nutrients. They 
   <summary>Updates</summary>
   <ul>  
     <details>
+      <summary>December 23th, 2024</summary>
+
+  - Cleaned the SR_Legacy Table
+  <br>
+The SR_Legacy was especially messy and required a lot of work to re categorize/remove samples that do not fit in the 5 food groups. 
+    </details>
+    <details>
       <summary>December 20th, 2024</summary>
 
   - Initiated the cleaning process for the SR_Leagacy table
